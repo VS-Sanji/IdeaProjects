@@ -1,0 +1,15 @@
+<%@page contentType="text/html;charset=UTF-8" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>详情页面</title>
+</head>
+<body>
+部门编号：20<br>
+部门名称：研发部<br>
+部门位置：beijing<br>
+<input type="button" value="后退" onclick="window.history.back()"/>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>http</title>
+</head>
+<body>
+
+<!--注意：浏览器上编写的这个请求路径还是要带上应用的根路径-->
+<h1>get请求:</h1>
+<form action="/servlet05/get" method="get">
+    username:<input type="text" name="username"/><br>
+    password:<input type="password" name="userpwd"/><br>
+    <input type="submit" value="login">
+</form>
+<h2>post请求:</h2>
+<form action="/servlet05/post" method="post">
+    username:<input type="text" name="username"/><br>
+    password:<input type="password" name="userpwd"/><br>
+    <input type="submit" value="login">
+</form>
+</body>
+</html>
